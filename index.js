@@ -153,13 +153,6 @@ app.delete('/categories/:id', async(req,res)=>{
     res.redirect("/categories");
 })
 
-app.get('/orders/:id', async(req,res)=>{
-    const order = await Order.findById(req.params.id)
-    .populate('customer')
-    .populate('products');
-    res.render('order/show.ejs',{order});
-})
-
 app.get('/orders', async(req,res)=>{
     const orders = await Order.find({}).populate('customer');
     res.render('order/order.ejs', {orders});
@@ -175,6 +168,13 @@ app.post('/orders', async(req,res)=>{
     const order = new Order(req.body);
     await order.save();
     res.redirect("/orders");
+})
+
+app.get('/orders/:id', async(req,res)=>{
+    const order = await Order.findById(req.params.id)
+    .populate('customer')
+    .populate('products');
+    res.render('order/show.ejs',{order});
 })
 
 app.get('/orders/:id/edit', async(req,res)=>{
