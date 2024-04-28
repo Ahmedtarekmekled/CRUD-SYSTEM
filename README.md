@@ -7,6 +7,7 @@ This is a basic CRUD (Create, Read, Update, Delete) application built using Mong
 ### Prerequisites
 
 - Node.js (version 12 or higher): [Install-it](https://nodejs.org/en/download)
+- Git for Windows: [Install-it](https://git-scm.com/download/win) 
 - MongoDB (installed locally or accessible remotely)
 
 ### Steps to Install and Run
