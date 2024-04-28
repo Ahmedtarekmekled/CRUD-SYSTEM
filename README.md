@@ -6,32 +6,32 @@ This is a basic CRUD (Create, Read, Update, Delete) application built using Mong
 
 ### Prerequisites
 
-- Node.js (version 12 or higher)
+- Node.js (version 12 or higher): [Install-it](https://nodejs.org/en/download)
 - MongoDB (installed locally or accessible remotely)
 
 ### Steps to Install and Run
 
-1. Clone the repository:
-   \`\`\`bash
+1. _Clone the repository:_
+   ```bash
    git clone https://github.com/Ahmedtarekmekled/CRUD-SYSTEM.git
-   \`\`\`
+   ```
 
-2. Navigate to the project directory:
-   \`\`\`bash
+2. _Navigate to the project directory:_
+   ```bash
    cd CRUD-SYSTEM
-   \`\`\`
+   ```
 
-3. Install dependencies:
-   \`\`\`bash
+3. _Install dependencies:_
+   ```bash
    npm install
-   \`\`\`
+   ```
 
-4. Start the application:
-   \`\`\`bash
+4. _Start the application:_
+   ```bash
    npm start
-   \`\`\`
+   ```
 
-The application will be accessible at \`http://localhost:3000/customers\`.
+The application will be accessible at `http://localhost:3000/customers`.
 
 
 ## Contributing
@@ -40,4 +40,4 @@ Contributions to this project are welcome! If you have suggestions for improveme
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+Explore and enjoy using this app.
