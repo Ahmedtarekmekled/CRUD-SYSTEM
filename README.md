@@ -29,7 +29,7 @@ This is a basic CRUD (Create, Read, Update, Delete) application built using Mong
 
 4. _Start the application:_
    ```bash
-   npm start
+   node index.js
    ```
 
 The application will be accessible at `http://localhost:3000/customers`.
